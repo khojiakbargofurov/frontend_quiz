@@ -11,9 +11,9 @@ function Quiz() {
   const quizzes = {
     quizzes: [
       {
-        "title": "English Language",
+        "title": "English",
         "color": "#FFF1E9",
-        "icon": "./assets/icon-english.svg",
+        "icon": "./assets/icon-english.png",
         "questions": [
           {
             "question": "Which of these is a synonym for 'happy'?",
@@ -43,9 +43,9 @@ function Quiz() {
         ]
       },
       {
-        "title": "Mathematics",
+        "title": "Math",
         "color": "#F4F9FC",
-        "icon": "./assets/icon-math.svg",
+        "icon": "./assets/icon-math.png",
         "questions": [
           {
             "question": "What is the value of π (Pi) to two decimal places?",
@@ -77,7 +77,7 @@ function Quiz() {
       {
         "title": "Physics",
         "color": "#E0F1F7",
-        "icon": "./assets/icon-physics.svg",
+        "icon": "./assets/icon-physics.png",
         "questions": [
           {
             "question": "What is the SI unit of force?",
@@ -112,14 +112,14 @@ function Quiz() {
     document.title = "Quiz" + " " + title;
   }, [title]);
 
-  if (title == "English Language") {
+  if (title == "English") {
     const quizzes2 = quizzes.quizzes[0];
     return (
       <div className="quiz-container container">
         {quizzes2 && <Test questions={quizzes2} />}
       </div>
     );
-  } else if (title == "Mathematics") {
+  } else if (title == "Math") {
     const quizzes2 = quizzes.quizzes[1];
     return (
       <div className="quiz-container container">

@@ -4,9 +4,9 @@ function MenuLinks() {
   const quizzes = {
     quizzes: [
       {
-        "title": "English Language",
+        "title": "English",
         "color": "#FFF1E9",
-        "icon": "./assets/icon-english.svg",
+        "icon": "./assets/icon-english.png",
         "questions": [
           {
             "question": "Which of these is a synonym for 'happy'?",
@@ -36,9 +36,9 @@ function MenuLinks() {
         ]
       },
       {
-        "title": "Mathematics",
+        "title": "Math",
         "color": "#F4F9FC",
-        "icon": "./assets/icon-math.svg",
+        "icon": "./assets/icon-math.png",
         "questions": [
           {
             "question": "What is the value of π (Pi) to two decimal places?",
@@ -70,7 +70,7 @@ function MenuLinks() {
       {
         "title": "Physics",
         "color": "#E0F1F7",
-        "icon": "./assets/icon-physics.svg",
+        "icon": "./assets/icon-physics.png",
         "questions": [
           {
             "question": "What is the SI unit of force?",
@@ -114,7 +114,7 @@ function MenuLinks() {
                 className="menu-item header-logo"
               >
                 <figure style={{ backgroundColor: item.color }}>
-                  <img src={item.icon} alt="" />
+                  <img src={item.icon} alt="" width={40}/>
                 </figure>
                 <span>{item.title}</span>
               </Link>

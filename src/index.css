@@ -184,6 +184,10 @@ body.dark-mode .btn {
   background-color: rgba(167, 41, 245, 0.5);
 }
 
+icon-img{
+  width: 56px;
+  height: 56px;
+}
 /* HEADER START */
 .header {
   padding-top: 40px;

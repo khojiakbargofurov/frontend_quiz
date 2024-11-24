@@ -28,8 +28,9 @@ function Navbar() {
           <Link className="header-logo" to="/">
             <figure>
               <img
-                src={`../assets/icon-${title.toLowerCase()}.svg`}
+                src={`../assets/icon-${title.toLowerCase()}.png`}
                 alt="icon"
+                width={40}
               />
             </figure>
             <span>{title}</span>
