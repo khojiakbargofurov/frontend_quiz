@@ -51,7 +51,6 @@ function Test({ questions: { questions, title, color, icon } }) {
         <Result
           title={title}
           color={color}
-          icon={icon}
           correctAnswerCount={correctAnswerCount}
           questionsLength={questions.length}
         />
